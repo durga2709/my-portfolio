@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Durga Nanaware | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    /* 🌟 General Styles */
+    body {
+      scroll-behavior: smooth;
+      font-family: 'Poppins', sans-serif;
+      color: #333;
+      background-color: #f8f9fa;
+    }
+    nav {
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    section {
+      padding: 100px 0;
+    }
+
+    /* 🏠 Hero Section */
+    .hero {
+      height: 100vh;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding-top: 60px;
+    }
+    .hero img {
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    /* 🙋‍♀️ About Section */
+    #about img {
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    #about p {
+      font-size: 1rem;
+      line-height: 1.8;
+    }
+
+    /* 🧾 CV Section */
+    #cv .btn {
+      font-weight: 600;
+    }
+
+    /* 📞 Contact Section */
+    #contact a {
+      text-decoration: none;
+      color: #2a5298;
+      font-weight: 500;
+    }
+    #contact a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: #1e3c72;
+      color: #fff;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 🌐 Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-primary" href="#home">Durga Nanaware</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#cv">CV</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 🏠 Hero Section -->
+  <section id="home" class="hero">
+    <img src="Durga photo.jpg" alt="Profile">
+    <h1>Hi, I'm <span class="fw-bold">Durga Nanaware</span></h1>
+    <p>Computer Engineer | Java Fullstack developer </p>
+    <div class="mt-4">
+      <a href="#about" class="btn btn-light me-2"><i class="bi bi-person"></i> About Me</a>
+      <a href="#cv" class="btn btn-outline-light"><i class="bi bi-file-earmark-text"></i> View CV</a>
+    </div>
+  </section>
+
+  <!-- 🙋‍♀️ About Section -->
+  <section id="about" class="container">
+    <div class="row align-items-center">
+      <div class="col-md-5 mb-4 mb-md-0">
+        <img src="Durga photo.jpg" class="img-fluid" alt="Durga">
+      </div>
+      <div class="col-md-7">
+        <h2 class="fw-bold mb-3">About Me</h2>
+        <p>Hello! I’m <strong>Durga Nanaware</strong>, a passionate <strong>Computer Engineer</strong> who loves to craft beautiful and functional websites using <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>JavaScript</strong>, and <strong>Bootstrap</strong>. I’m driven by curiosity and creativity, and I believe in building projects that make an impact.</p>
+        <p>My goal is to continuously learn and grow as a developer while contributing to meaningful projects. I’m also exploring backend technologies and cloud integration.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🧾 CV Section -->
+  <section id="cv" class="bg-light text-center">
+    <div class="container">
+      <h2 class="fw-bold mb-3">My CV</h2>
+      <p class="mb-4">You can view or download my CV below.</p>
+      <a href="Durga Nanaware-Resume.pdf" target="_blank" class="btn btn-primary mb-4"><i class="bi bi-box-arrow-up-right"></i> Open CV</a>
+      <div class="ratio ratio-16x9">
+        <iframe src="Durga Nanaware-Resume.pdf" frameborder="0"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- 📞 Contact Section -->
+  <section id="contact" class="container text-center">
+    <h2 class="fw-bold mb-4">Contact Me</h2>
+    <p class="mb-2"><i class="bi bi-envelope text-primary"></i> <a href="mailto:yourmail@example.com">yourmail@example.com</a></p>
+    <p class="mb-2"><i class="bi bi-github text-dark"></i> <a href="https://github.com/yourgithub" target="_blank">GitHub Profile</a></p>
+    <p class="mb-4"><i class="bi bi-linkedin text-primary"></i> <a href="https://linkedin.com/in/yourlinkedin" target="_blank">LinkedIn Profile</a></p>
+    <div class="d-flex justify-content-center">
+      <form class="w-50">
+        <div class="mb-3">
+          <input type="text" class="form-control" placeholder="Your Name" required>
+        </div>
+        <div class="mb-3">
+          <input type="email" class="form-control" placeholder="Your Email" required>
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+        </div>
+        <button class="btn btn-primary w-100">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ⚓ Footer -->
+  <footer class="text-center">
+    <p class="mb-0">© 2025 Durga Nanaware | Designed with ❤️ using HTML5, CSS3, JS, Bootstrap</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
